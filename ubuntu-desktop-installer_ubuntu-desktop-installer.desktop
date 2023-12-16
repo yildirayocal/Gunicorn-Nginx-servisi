@@ -1,0 +1,12 @@
+[Desktop Entry]
+X-SnapInstanceName=ubuntu-desktop-installer
+Type=Application
+Version=1.0
+Name=Install Ubuntu 23.10.1
+Comment=Install this system permanently to your hard disk
+Keywords=ubiquity;
+Exec=env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/ubuntu-desktop-installer_ubuntu-desktop-installer.desktop /snap/bin/ubuntu-desktop-installer
+Icon=ubiquity
+Terminal=false
+Categories=GTK;System;Settings;
+
